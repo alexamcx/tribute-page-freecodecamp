@@ -1,0 +1,98 @@
+body {
+  font-family: Georgia;
+  font-size: 1.4rem;
+  line-height: 1;
+  text-align: center;
+  color: #333;
+}
+
+h1{
+  margin-top: 50px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#main {
+  margin: 30px 8px;
+  padding: 15px;
+  border-radius: 5px;
+  background: #F1DEC9;
+}
+
+#img-div {
+  background: white;
+  padding: 15px;
+  margin: 0;
+}
+
+fig {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+figcaption {
+  font-family: Arial;
+  font-size: 15px;
+  display: block;
+}
+
+#img-caption{
+  margin: 15px 0 5px 0;
+}
+
+ul {
+max-width: 600px;
+margin: 0 auto 50px auto;
+text-align: left;
+line-height: 1.6;
+font-size: 1.2rem;
+}
+
+li {
+  margin: 20px 0;
+}
+
+h3 {
+  margin: 50px 0;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 350px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.gallery-header {
+  margin: 40px 0 30px 0;
+}
+
+blockquote {
+  line-height: 1.5;
+  text-align: center;
+}
